@@ -1,8 +1,6 @@
-# version: "3.8"
-
 services:
-   portainer-practices:
-    image: venukishore/portainer-practices:latest
+  portainer-practices:
+    image: venukishore/portainer-practices:1.0.0
     ports:
       - "5000:5000"
     healthcheck:
